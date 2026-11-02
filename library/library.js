@@ -11,7 +11,7 @@
   const ELEM = Object.fromEntries(L.elems.map((x) => [x.th, x.en]));
   const ic = (n, cls = "ic sm") => `<img class="${cls}" src="../img/icons/${n}.png" alt="" loading="lazy" width="26" height="26">`;
   const TABS = {
-    cards: { f: ["tribe", "el", "kind", "slot"] }, organs: { f: ["slot", "el"] }, heads: { f: [] },
+    cards: { f: ["tribe", "el", "kind", "slot"] },
     genes: { f: ["tier"] }, runes: { f: [] }, status: { f: [] },
   };
   let tab = (location.hash.slice(1) in TABS) ? location.hash.slice(1) : "cards";
