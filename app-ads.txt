@@ -1,0 +1,3 @@
+# app-ads.txt for Dyelight Realm (Dyelight Studio). Publisher ID from AdMob payments page, 2026-11-08.
+# Must sit at the ROOT of the Play Console "Website" domain (https://dyelightstudio.github.io/app-ads.txt).
+google.com, pub-1387441247714175, DIRECT, f08c47fec0942fa0
