@@ -240,6 +240,11 @@ html.js [data-lang]:not(.on) { display: none !important; }
 .ghtml ul { padding-left: 1.2em; margin: 4px 0 8px; }
 .ghtml li { font-size: 16px; margin: .25em 0; }
 .ghtml p { font-size: 16px; }
+.ghtml .gpic { text-align: center; }
+.ghtml .gpic img { max-width: 100%; height: auto; }
+.ghtml .gpair { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+.ghtml .gpair img { width: min(48%, 330px); height: auto; flex: none; }
+.ghtml .gpair span { font-size: 16px; }
 .ghtml img.i3 { width: 24px; height: 24px; display: inline-block; vertical-align: -5px; margin: 0 2px; }
 .ghtml svg { width: 22px; height: 22px; vertical-align: -5px; }
 .ghtml ul.two { columns: 2 220px; }
